@@ -1,0 +1,185 @@
+/*global*/
+:root{
+    --primary: #ffcc00;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+/*utilities*/
+
+
+/*menu*/
+nav.menu{
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav.menu img{
+    height: 30px;
+    padding-left: 20px;
+}
+
+.link-glass, .link-renew,.link-menu,.logo {
+   display: none;
+}
+
+.link-login{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-size: 14px;
+    color: black;
+}
+
+.link-subs{
+    background-size: 200% 100%;
+    background-position: 100% 0%;
+    background-color:black;
+    background-image: linear-gradient(to left, black 50%, var(--primary) 50%);
+    transition: background-position .2s ease-in-out, color .2s ease-in-out;
+
+    color: white;
+    text-transform: uppercase;
+    font-weight: 7000;
+    letter-spacing: 3px;
+    font-size: 12px;
+    padding: 17px;
+  
+}
+.link-subs:hover{
+    background-position: 0 100%;
+   
+    color: black;
+
+}
+
+.link-angles{
+    color: black;
+}
+
+
+nav.menu a :last-of-type {
+    margin-right: 30px;
+}
+/*header*/
+header{
+    text-align: center;
+    height: 200px;
+}
+
+
+ 
+header h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding: 3px;
+    text-decoration: none; border-bottom: 1px #ffcc00;
+}
+
+
+/* header natgeo hover style of underline*/
+
+.link-subhdr {
+   color: white;
+   text-decoration: none;
+   background-position-y: -0%;
+   background-image: linear-gradient( black 50%, #ffcc00 50%);
+   transition: background 500ms ease;
+   background-size: 2px;
+   background-size: auto 175%;
+ }
+ 
+ .link-subhdr:hover {
+   background-position-y: 100%;
+ 
+ }
+ 
+ /*solid yellow underline*/
+
+ .link-line{
+    color: white;
+    text-decoration: none;
+    background-position-y: -0%;
+    background-image: linear-gradient( black 50%, #ffcc00 50%);
+    transition: background 500ms ease;
+    background-size: 2px;
+    background-size: auto 175%;
+  }
+  
+
+
+
+
+ /*bottom wording*/
+ .link-smr {
+    color: white;
+    text-decoration: none;
+    background-position-y: -0%;
+    background-image: linear-gradient( black 50%, #ffcc00 50%);
+    transition: background 500ms ease;
+    background-size: 2px;
+    background-size: auto 175%;
+  }
+  
+  .link-smr:hover {
+    background-position-y: 100%;
+  
+  }
+/*image hovering*/
+
+    .hover02 figure img {
+	width: 300px;
+	height: auto;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover02 figure:hover img {
+	width: 350px;
+
+
+/*end of image hovering css*/
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:#dedede;
+    height: 400px;
+
+}
+
+.flex-element{
+    border: 1px;
+    background-color: none;
+    color: none;
+    padding: 10px;
+    flex-basis: 300px;
+    /*width*/
+}
+
+
+
+
+
